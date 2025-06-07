@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="PropManager">
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Events">
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Library.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="KompasForm.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp" />
+    <ClCompile Include="Library.cpp" />
+    <ClCompile Include="KompasForm.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Library.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Library.def" />
+    <None Include="res\Library.rc2" />
+    <None Include="kAPI5.tlb" />
+    <None Include="ksConstants.tlb" />
+    <None Include="ksConstants3D.tlb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="image.bmp" />
+  </ItemGroup>
+</Project>
